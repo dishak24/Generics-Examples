@@ -8,9 +8,9 @@ namespace Generics
         {
             Console.WriteLine("Generics Practice !");
             Console.WriteLine();
-            SwapNumbers.Swap("Disha", "Riya");
-            SwapNumbers.Swap(97.68, 67.90);
-            SwapNumbers.Swap('D', 'B');
+
+            CalculatorGenerics.MenuDrivenCalculator(26, 13);
+            CalculatorGenerics.MenuDrivenCalculator(26.56, 13.2);
 
         }
 

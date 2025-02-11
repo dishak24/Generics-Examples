@@ -9,12 +9,11 @@ namespace Generics
             Console.WriteLine("Generics Practice !");
             Console.WriteLine();
 
-            MinMax.FindMax(10, 12, 9);
-            MinMax.FindMin(10, 12, 9);
-            MinMax.FindMax(7.9, 9.0, 2.5);
-            MinMax.FindMin(7.9, 9.0, 2.5);
-            MinMax.FindMax('A', 'B', 'c');
-            MinMax.FindMin('A', 'B', 'c');
+            CompareDifferentDataType.CompareType(12,67);
+            CompareDifferentDataType.CompareType(100, 34);
+            CompareDifferentDataType.CompareType("Disha", "Disha");
+            CompareDifferentDataType.CompareType(6.7, 3.9);
+
         }
 
     }
